@@ -1,0 +1,254 @@
+#profile-section-1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -105%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* align-content: flex-start; */
+  background-color: white;
+  border: 3px solid black;
+  border-bottom: 0px;
+  align-items: center;
+  /* padding-top: 5%; */
+  /* max-width: 100%; */
+  width: 30vw;
+  height: 30vh;
+  /* border-radius: 15px; */
+  /* padding-bottom: 20%; */
+  /* gap: 25rem; */
+}
+
+#text-name {
+  color: black;
+  background-color: white;
+  /* max-width: 4%; */
+  font-size: 2.5vw;
+  max-width: 15vw;
+  max-height: 15vh;
+  overflow: hidden;
+  font-family: "Space Mono", monospace;
+  /* animation: fadeIn 1.5s forwards; */
+}
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+
+#headshot {
+  border-radius: 50%;
+  border: 4px solid darkblue;
+  background-color: brown;
+  max-width: 10vw;
+  max-height: 10vw;
+}
+
+.profile-section-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  /* border-radius: 15px; */
+  justify-content: space-evenly;
+  border: 3px solid black;
+  border-top: 0px;
+  padding-top: 5px;
+  /* border: 2px solid forestgreen; */
+  width: 30vw;
+  height: 10vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  /* animation: fadeInBorder 0.02s forwards; */
+}
+/* @keyframes fadeInBorder {
+  0% {
+    opacity: 0;
+  }
+ 66% {
+    opacity: 0;
+  } 
+  100% {
+    opacity: 1;
+  }
+} */
+
+div#phone {
+  background-color: white;
+  width: 5vw;
+  justify-content: space-evenly;
+  align-content: center;
+  /* margin-right: 5%; */
+}
+span#telephone-icon {
+  border: 3.4px solid goldenrod;
+}
+p.telephone-number {
+  font-family: "Space Mono", monospace;
+  font-size: 0.75vw;
+  background-color: white;
+  color: black;
+}
+
+div#email {
+  background-color: white;
+  width: auto;
+  /* margin-right: 5%; */
+}
+span#email-icon {
+  border: 3.4px solid crimson;
+}
+p.email {
+  font-family: "Space Mono", monospace;
+  font-size: 0.75vw;
+  color: black;
+}
+
+div#linkedin {
+  background-color: white;
+  width: auto;
+}
+span#linkedin-icon {
+  border: 3.4px solid blue;
+}
+p.linkedin {
+  font-family: "Space Mono", monospace;
+  font-size: 0.75vw;
+  color: black;
+}
+
+.profile-section-3 {
+  background-color: white;
+  width: 30vw;
+  height: 10vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  /* border-radius: 15px; */
+  border: 3px solid black;
+  border-top: 0px;
+  /* animation: fadeInBorder 0.04s forwards; */
+}
+/* @keyframes fadeInBorder {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+p.data-analyst {
+  margin: 1.5%;
+  font-family: "Space Mono", monospace;
+  overflow: hidden;
+  font-size: 1.15vw;
+  text-align: center;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 6s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.button-section {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 30vw;
+  height: 10vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 150%);
+}
+
+.about-me-button {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  font-family: "Space Mono", monospace;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.about-me-button:hover {
+  background-color: lightgreen;
+}
+
+.professional-button {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  font-family: "Space Mono", monospace;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.professional-button:hover {
+  background-color: lightblue;
+}
+
+.hobbies-button {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  font-family: "Space Mono", monospace;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.hobbies-button:hover {
+  background-color: lightgoldenrodyellow;
+}
