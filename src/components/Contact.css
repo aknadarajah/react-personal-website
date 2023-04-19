@@ -200,11 +200,12 @@ p.data-analyst {
   border: 2px solid black;
   border-radius: 10px;
   color: black;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1vw;
+  /* min-height: 8vh; */
+  font-size: 0.8vw;
   font-family: "Space Mono", monospace;
   margin: 4px 2px;
   transition-duration: 0.4s;
@@ -213,6 +214,8 @@ p.data-analyst {
 
 .about-me-button:hover {
   background-color: lightgreen;
+  padding: 16px 32px;
+  font-size: 1.5vw;
 }
 
 .professional-button {
@@ -220,11 +223,10 @@ p.data-analyst {
   border: 2px solid black;
   border-radius: 10px;
   color: black;
-  padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1vw;
+  font-size: 0.8vw;
   font-family: "Space Mono", monospace;
   margin: 4px 2px;
   transition-duration: 0.4s;
@@ -232,6 +234,8 @@ p.data-analyst {
 }
 .professional-button:hover {
   background-color: lightblue;
+  padding: 16px 32px;
+  font-size: 1.5vw;
 }
 
 .hobbies-button {
@@ -239,11 +243,10 @@ p.data-analyst {
   border: 2px solid black;
   border-radius: 10px;
   color: black;
-  padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1vw;
+  font-size: 0.8vw;
   font-family: "Space Mono", monospace;
   margin: 4px 2px;
   transition-duration: 0.4s;
@@ -251,4 +254,6 @@ p.data-analyst {
 }
 .hobbies-button:hover {
   background-color: lightgoldenrodyellow;
+  padding: 16px 32px;
+  font-size: 1.5vw;
 }
