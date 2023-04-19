@@ -42,7 +42,7 @@
 
 #headshot {
   border-radius: 50%;
-  border: 4px solid darkblue;
+  /* border: 4px solid darkblue; */
   background-color: brown;
   max-width: 10vw;
   max-height: 10vw;
