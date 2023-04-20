@@ -26,7 +26,7 @@ export default function Description() {
         </div>
         <div id="linkedin">
           <a
-            href="https://www.linkedin.com/in/adrian-nadarajah-90a39a70/"
+            // href="https://www.linkedin.com/in/adrian-nadarajah-90a39a70/"
             target="_blank"
             rel="noopener noreferrer"
           >
