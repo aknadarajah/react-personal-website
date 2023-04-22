@@ -54,6 +54,7 @@ p {
 .close-button {
   margin-bottom: 15%;
   background-color: blue;
+  font-family: "Space Mono", monospace;
   color: white;
   border-radius: 15px;
   overflow: auto;
@@ -61,9 +62,10 @@ p {
 }
 
 .close-button:hover {
-  background-color: white;
-  padding: 2px 2px;
-  font-size: 1.5vw;
-  color: black;
+  background-color: red;
+  /* padding: 8px 8px;
+  font-size: 1.5vw; */
+  /* width: 8.5vw; */
+  color: white;
   font-family: "Space Mono", monospace;
 }
