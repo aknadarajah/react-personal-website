@@ -1,0 +1,69 @@
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 15px;
+  border: 5px solid black;
+  overflow: auto;
+  /* min-height: 1vh; */
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* .modal-header {
+padding: 1vw;
+} */
+
+.modal-body {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  padding: 0.7vw;
+}
+
+.modal-title {
+  margin: 0;
+}
+
+h1 {
+  overflow: hidden;
+  font-size: 100px;
+  /* border: 2px solid green; */
+}
+
+h4 {
+  text-align: center;
+  font-size: 3vw;
+}
+
+p {
+  /* text-align: center; */
+  font-family: "Space Mono", monospace;
+  font-size: 1vw;
+}
+
+.close-button {
+  margin-bottom: 15%;
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  overflow: auto;
+  width: 8vw;
+}
+
+.close-button:hover {
+  background-color: white;
+  padding: 2px 2px;
+  font-size: 1.5vw;
+  color: black;
+  font-family: "Space Mono", monospace;
+}
