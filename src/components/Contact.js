@@ -181,7 +181,7 @@ export default function Description() {
         <div className="modal">
           <div className="modal-content">
             <div className="modal-header">
-              <h4 className="modal-title">About Me</h4>
+              <h4 className="modal-title">Hobbies</h4>
             </div>
             <div className="modal-body">
               <p className="paragraph-1">
