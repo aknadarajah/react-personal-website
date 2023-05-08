@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import logo from "./headshot.jpg";
+import resume from "./Adrian_Nadarajah_Resume.pdf";
+import resume2 from "./Adrian_Nadarajah_Resume_Short_Version.jpg";
 import "./Contact.css";
 import "./Modal.css";
+import "./Resume.css";
 
 export default function Description() {
   const [homecard, setHomecard] = useState(true);
@@ -19,6 +22,10 @@ export default function Description() {
   const [hobbies, setHobbies] = useState(false);
   const toggleHobbies = () => {
     setHobbies(!hobbies);
+  };
+  const [seeResume, setResume] = useState(false);
+  const toggleResume = () => {
+    setResume(!seeResume);
   };
   return (
     <>
@@ -77,7 +84,7 @@ export default function Description() {
               className="professional-button"
               onClick={() => {
                 toggleHomecard();
-                toggleProfessional();
+                toggleResume();
               }}
             >
               Professional
@@ -199,6 +206,15 @@ export default function Description() {
                 expectations.
               </p>
             </div>
+            <div className="modal-footer-2">
+              <button
+                className="to-resume"
+                onClick={() => {
+                  toggleProfessional();
+                  toggleResume();
+                }}
+              ></button>
+            </div>
             <div className="modal-footer">
               <button
                 className="close-button"
@@ -271,6 +287,39 @@ export default function Description() {
                 Close
               </button>
             </div>
+          </div>
+        </div>
+      )}
+      {seeResume && (
+        <div className="resume-container">
+          <div className="skills-section">
+            <img
+              id="resume-short"
+              alt="Skills Description for Adrian Nadarajah"
+              src={resume2}
+            ></img>
+          </div>
+          <div className="resume-button-section">
+            <a href={resume} download="Adrian_Nadarajah_Resume">
+              <button
+                className="download-resume"
+                onClick={() => {
+                  console.log("Adrian the button isn't working");
+                }}
+              >
+                Download Resume
+              </button>
+            </a>
+            <button
+              className="close-modal"
+              onClick={() => {
+                console.log("hello Adrian");
+                toggleResume();
+                toggleHomecard();
+              }}
+            >
+              Back
+            </button>
           </div>
         </div>
       )}

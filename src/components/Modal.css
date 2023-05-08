@@ -70,3 +70,13 @@ p {
   color: white;
   font-family: "Space Mono", monospace;
 }
+
+.to-resume {
+  /* margin-bottom: 15%;
+  background-color: blue;
+  font-family: "Space Mono", monospace;
+  color: white;
+  border-radius: 15px;
+  overflow: hidden; */
+  min-width: 8vw;
+}
